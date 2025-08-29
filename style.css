@@ -473,18 +473,29 @@ body {
     width: 100%;
    
   }
-  .banner-2{
-    height: 70vh;
+  
+  .banner-2 {
+    height: auto;
     flex-direction: column;
     text-align: center;
-    padding-left: 30px;
-    gap: 50px;
+    padding: 20px 10px;
+    gap: 20px;
   }
   .banner-2 img {
-    width: 45vw;
-   
+    width: 100%;
+    min-width: unset;
+    border-radius: 20px;
+    margin-bottom: 20px;
   }
-  .social-icons{
-    padding-left: 65px;
+  .banner-text-2 {
+    width: 100%;
+    min-width: unset;
+  }
+  .social-icons {
+    justify-content: center;
+    padding-left: 0;
+    margin-top: 16px;
   }
 }
+
+
