@@ -438,6 +438,7 @@ body {
     height: auto;
     margin: 20px auto;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -455,6 +456,7 @@ body {
     flex-direction: column;
     text-align: center;
   }
+  
 }
 
 @media (max-width: 480px) {
@@ -473,5 +475,16 @@ body {
   }
   .banner-2{
     height: 70vh;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 30px;
+    gap: 50px;
+  }
+  .banner-2 img {
+    width: 45vw;
+   
+  }
+  .social-icons{
+    padding-left: 65px;
   }
 }
